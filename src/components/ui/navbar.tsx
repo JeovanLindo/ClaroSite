@@ -40,7 +40,7 @@ export default function NavBar() {
       <div className='hidden lg:flex flex-row gap-4' >
           <nav className='flex flex-row gap-4 text-gray-50' >
             <button onClick={()=> scrollToSection('servicesMovel')} className='hover:cursor-pointer hover:text-gray-200 transition-all'>Móvel</button>
-            <button onClick={()=> scrollToSection('beneficios')} className='hover:cursor-pointer hover:text-gray-200 transition-all'>soluções</button>
+            <button onClick={()=> scrollToSection('perks')} className='hover:cursor-pointer hover:text-gray-200 transition-all'>soluções</button>
             <button onClick={()=> scrollToSection('servicesFibra')} className='hover:cursor-pointer hover:text-gray-200 transition-all'>Internet</button>
             <button onClick={()=> scrollToSection('beneficios')} className='hover:cursor-pointer hover:text-gray-200 transition-all'>Benefícios</button>
             <button onClick={()=> scrollToSection('footer')} className='hover:cursor-pointer hover:text-gray-200 transition-all'>Contatos</button>
