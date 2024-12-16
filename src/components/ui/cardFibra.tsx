@@ -66,12 +66,12 @@ export function CardNavFibra() {
                   <p className='text-xs'>
                     {teste1.plano}
                   </p>
-                  <p className={cn('hidden' ,teste1.bytes === 'Megas' && 'text-3xl flex items-center gap-1',
+                  <p className={cn('hidden' ,teste1.bytes === 'Megas' && 'text-3xl w-full flex items-center gap-1',
                     teste1.bytes === 'Megas'
                   )}>
                     <Wifi/> {teste1.megas} Megas
                   </p>
-                  <p className={cn('hidden',teste1.bytes === 'Gigas' && 'text-3xl flex items-center gap-1'
+                  <p className={cn('hidden',teste1.bytes === 'Gigas' && 'text-3xl w-full flex items-center gap-1'
                   )}>
                     <Wifi/> {teste1.megas} GB
                   </p>
