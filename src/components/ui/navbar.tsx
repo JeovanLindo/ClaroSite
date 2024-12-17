@@ -91,7 +91,7 @@ export default function NavBar() {
           </div>
           <Button
             asChild>
-            <a target='_blank' href=''>Contrate</a>
+            <a target='_blank' href='https://api.whatsapp.com/send/?phone=5521991041111&text=Ol%C3%A1%2C+estou+interessado+em+conhecer+mais+sobre+os+servi%C3%A7os+da+Claro.+Gostaria+de+saber+mais+sobre+os+planos+dispon%C3%ADveis+e+como+posso+me+tornar+um+cliente.+Agrade%C3%A7o+desde+j%C3%A1+pela+aten%C3%A7%C3%A3o%21&type=phone_number&app_absent=0'>Contrate</a>
           </Button>
         </SheetHeader>
       </SheetContent>
@@ -101,7 +101,7 @@ export default function NavBar() {
     <Button
     className='hidden lg:flex'
     >
-      <a href="" target='_blank'>Contrate</a>
+      <a href="https://api.whatsapp.com/send/?phone=5521991041111&text=Ol%C3%A1%2C+estou+interessado+em+conhecer+mais+sobre+os+servi%C3%A7os+da+Claro.+Gostaria+de+saber+mais+sobre+os+planos+dispon%C3%ADveis+e+como+posso+me+tornar+um+cliente.+Agrade%C3%A7o+desde+j%C3%A1+pela+aten%C3%A7%C3%A3o%21&type=phone_number&app_absent=0" target='_blank'>Contrate</a>
     </Button>
   </header> 
   )
