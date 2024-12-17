@@ -37,8 +37,10 @@ export default function Footer ({ id }: { id: string }){
             </h2>
             <div className='flex flex-col items-center gap-1 justify-center'>
               <p className='opacity-90'>Centro-RJ</p>
-              <ul className='flex flex-col'>
-                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all' href='https://wa.me/552131954790?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20SmartLagos.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>(21) 3195 4790</a></li>
+              <ul className='flex flex-col justify-center items-center gap-1'>
+                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all' href='https://wa.me/5521991041111?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Claro.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>(21) 99104-1111</a></li>
+                <p>Nosso número fixo</p>
+                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all'>(21) 3195 4791</a></li>
               </ul>
             </div>
           </div>

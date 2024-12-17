@@ -24,7 +24,7 @@ export default function Benefits ({id}: {id: string}){
       <div className="w-full flex flex-col lg:h-56 h-fit gap-10 lg:items-start items-center justify-between">
           <h1 className="text-4xl lg:w-96 text-center lg:text-left text-claroVermelho" >Sua empresa com mais benefícios</h1>
           <Button>
-            <a href="">Contrate</a>  
+            <a href="https://api.whatsapp.com/send/?phone=5521991041111&text=Ol%C3%A1%2C+estou+interessado+em+conhecer+mais+sobre+os+servi%C3%A7os+da+Claro.+Gostaria+de+saber+mais+sobre+os+planos+dispon%C3%ADveis+e+como+posso+me+tornar+um+cliente.+Agrade%C3%A7o+desde+j%C3%A1+pela+aten%C3%A7%C3%A3o%21&type=phone_number&app_absent=0">Contrate</a>  
           </Button> 
         </div>
         <div className="flex w-full justify-center lg:justify-start flex-row flex-wrap gap-3 h-fit">

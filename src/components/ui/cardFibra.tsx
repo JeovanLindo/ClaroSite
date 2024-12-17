@@ -21,8 +21,31 @@ const teste = PricesFibra.map((price)=> {
     megas: price.Megas,
     preco: price.Preco,
     bytes: price.Bytes,
+    haveBonus: price.HaveBonus,
+    bonus: price.Bonus,
   }
 })
+
+export function LinkDuplo({ teste1 }: { teste1: typeof teste[0] }){
+  
+  const handleClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+
+    let url : string
+    
+    if (teste1.haveBonus === true){
+      url =`https://wa.me/5521995322025?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20Conecta%20Claro%20e%20me%20interessei%20pela%20${teste1.plano}%20de%20${teste1.megas}%20megas%20%2B%20${teste1.bonus}!`;
+    } else {
+      url =`https://wa.me/5521995322025?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20Conecta%20Claro%20e%20me%20interessei%20pela%20${teste1.plano}%20de%20${teste1.megas}%20megas!`;
+    }
+    window.open(url, '_blank'); 
+  }  
+return (
+  <Button className='w-full'>
+    <a target='_blank' onClick={handleClick}>Clique aqui</a>
+  </Button>
+);
+}
 
 export function CardNavFibra() {
   return (
@@ -66,15 +89,14 @@ export function CardNavFibra() {
                   <p className='text-xs'>
                     {teste1.plano}
                   </p>
-                  <p className={cn('hidden' ,teste1.bytes === 'Megas' && 'text-3xl w-full flex items-center gap-1',
-                    teste1.bytes === 'Megas'
-                  )}>
-                    <Wifi/> {teste1.megas} Megas
-                  </p>
-                  <p className={cn('hidden',teste1.bytes === 'Gigas' && 'text-3xl w-full flex items-center gap-1'
-                  )}>
-                    <Wifi/> {teste1.megas} GB
-                  </p>
+                  <div>
+                    <p className='text-3xl w-full flex items-center gap-1'>
+                      <Wifi/> {teste1.megas} Megas
+                    </p>
+                    <p className={cn('hidden', teste1.haveBonus === true && 'text-3xl w-full flex items-center gap-1', teste1.haveBonus === false)}>
+                      + {teste1.bonus}
+                    </p>
+                  </div>
               </div>
 
               <p className='border-y border-black w-full py-1 text-center'>Apps ilimitados</p>
@@ -84,7 +106,7 @@ export function CardNavFibra() {
                 <p className='text-2xl justify-center w-full'>R$ {teste1.preco}/Mês</p>
               </div>
               <Button className='w-full'>
-                <a href="">Contratar serviço fibra</a>
+                <LinkDuplo teste1={teste1}/>
               </Button>
             </div>
               
