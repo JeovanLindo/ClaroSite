@@ -74,7 +74,7 @@ export function CardNavMovel() {
                 <p className='text-xl justify-center w-full'>R$ {teste1.preco}/Mês</p>
               </div>
               <Button className='w-full'>
-                <a target='_blank' href={`https://wa.me/5521995322025?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20Conecta%20Claro%20e%20me%20interessei%20pela%20${teste1.plano}%20de%20${teste1.gigas}%20gigas!`}>Contratar serviço móvel</a>
+                <a target='_blank' href={`https://wa.me/5521991041111?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20Conecta%20Claro%20e%20me%20interessei%20pela%20${teste1.plano}%20de%20${teste1.gigas}%20gigas!`}>Contratar serviço móvel</a>
               </Button>
             </div>
               
