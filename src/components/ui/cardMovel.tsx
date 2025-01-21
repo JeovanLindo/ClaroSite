@@ -10,7 +10,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import { Button } from './button';
 
 const teste = PricesMovel.map((price)=> {
@@ -26,6 +26,7 @@ export function CardNavMovel() {
     <Swiper
         slidesPerView={1}
         spaceBetween={8}
+        navigation={true}
         pagination={{
           clickable: true,
           dynamicBullets: true
@@ -52,7 +53,7 @@ export function CardNavMovel() {
             spaceBetween: 20,
           },
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
       >
         {teste.map((teste1)=>(
           <SwiperSlide className='w-fit h-fit flex flex-row justify-center mb-10 items-center'

@@ -27,7 +27,7 @@ export default function Footer ({ id }: { id: string }){
                 <li>
                   <p className='opacity-90'>Centro-RJ</p>
                 </li>
-                <li><a className='hover:opacity-100 opacity-60 transition-all' target='blank' href='https://www.google.com.br/maps/place/Av.+Rio+Branco,+156+-+Centro,+Rio+de+Janeiro+-+RJ,+20040-003/@-22.907292,-43.179048,17z/data=!4m6!3m5!1s0x997f609141910b:0x6e4f6574012c8913!8m2!3d-22.9068334!4d-43.1772234!16s%2Fg%2F11j8swljk7?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D'>Estrada Padre Roser, n°42 - Sala 1207 - Edifício Punto Offices - Vila da Penha - Rio de Janeiro -RJ CEP21220-560</a></li>
+                <li><a className='hover:opacity-100 opacity-60 transition-all' target='blank' href='https://maps.app.goo.gl/cZ2C25VRvSH4XQoe7'>Av. Rio Branco, 156, Sala 2814, Centro da cidade, Rio de Janeiro</a></li>
               </ul>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Footer ({ id }: { id: string }){
                 <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all' href='https://wa.me/5521991041111?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Claro.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>(21) 99104-1111</a></li>
                 <p>Nosso número fixo</p>
                 <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all'>(21) 3195 4791</a></li>
-                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all'>08000006030</a></li>
+                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all'>0800 000 6030</a></li>
               </ul>
             </div>
           </div>

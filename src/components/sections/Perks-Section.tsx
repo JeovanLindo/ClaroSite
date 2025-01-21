@@ -2,7 +2,7 @@ import { ComponentProps, useState } from 'react'
 
 import Container from '@/components/ui/Container'
 import { cn } from '@/lib/utils'
-import image1 from '@/assets/Computador.jpg'
+import image1 from '@/assets/fwa.jpg'
 import image2 from '@/assets/wifi.jpg'
 import image3 from '@/assets/work.jpg'
 interface PerkProps extends ComponentProps<'div'> {
@@ -49,8 +49,8 @@ function Perk({ image, title, desc, className, isExpanded, ...props }: PerkProps
 const perkList = [
   {
     image: image1,
-    title: 'Microsoft 365',
-    desc: 'Otimize a produtividade da sua equipe com ferramentas online colaborativas Microsoft.',
+    title: 'Roteador FWA',
+    desc: 'Oferece internet banda larga móvel 5G, com alta velocidade e fácil instalação, ideal para casa ou empresa.',
   },
   {
     image: image2,

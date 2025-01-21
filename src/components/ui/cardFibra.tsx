@@ -11,7 +11,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import { Button } from './button';
 
 
@@ -34,9 +34,9 @@ export function LinkDuplo({ teste1 }: { teste1: typeof teste[0] }){
     let url : string
     
     if (teste1.haveBonus === true){
-      url =`https://wa.me/5521991041111?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20Conecta%20Claro%20e%20me%20interessei%20pela%20${teste1.plano}%20de%20${teste1.megas}%20megas%20%2B%20${teste1.bonus}!`;
+      url =`https://wa.me/5521991041111?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20Conecta%20Claro%20e%20me%20interessei%20pela%20${teste1.plano}%20de%20${teste1.megas}%20${teste1.bytes}%20%2B%20${teste1.bonus}!`;
     } else {
-      url =`https://wa.me/5521991041111?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20Conecta%20Claro%20e%20me%20interessei%20pela%20${teste1.plano}%20de%20${teste1.megas}%20megas!`;
+      url =`https://wa.me/5521991041111?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20Conecta%20Claro%20e%20me%20interessei%20pela%20${teste1.plano}%20de%20${teste1.megas}%20${teste1.bytes}!`;
     }
     window.open(url, '_blank'); 
   }  
@@ -53,6 +53,7 @@ export function CardNavFibra() {
         className=''
         slidesPerView={1}
         spaceBetween={8}
+        navigation={true}
         pagination={{
           clickable: true,
           dynamicBullets: true
@@ -79,7 +80,7 @@ export function CardNavFibra() {
             spaceBetween: 20,
           },
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
       >
         {teste.map((teste1)=>(
           <SwiperSlide className='w-fit h-fit flex flex-row justify-center mb-10 items-center'
@@ -91,7 +92,7 @@ export function CardNavFibra() {
                   </p>
                   <div>
                     <p className='text-3xl w-full flex items-center gap-1'>
-                      <Wifi/> {teste1.megas} Megas
+                      <Wifi/> {teste1.megas} {teste1.bytes}
                     </p>
                     <p className={cn('hidden', teste1.haveBonus === true && 'text-3xl w-full flex items-center gap-1', teste1.haveBonus === false)}>
                       + {teste1.bonus}
