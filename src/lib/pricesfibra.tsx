@@ -4,7 +4,7 @@ const PricesFibra= [
    Megas: '350',
    Bytes: 'Megas',
    Preco:'89,90',
-   HaveBonus: true,
+   HaveBonus: false,
    Bonus: 'Maquininha Bin', 
  },
   {
@@ -12,7 +12,7 @@ const PricesFibra= [
    Megas: '400',
    Bytes: 'Megas',
    Preco:'89,90',
-   HaveBonus: true,
+   HaveBonus: false,
    Bonus: 'Maquininha Bin', 
  },
   {
@@ -20,7 +20,7 @@ const PricesFibra= [
    Megas: '600',
    Bytes: 'Megas',
    Preco:'99,90',
-   HaveBonus: true, 
+   HaveBonus: false, 
    Bonus: 'Maquininha Bin',
  }, 
   {
@@ -28,7 +28,7 @@ const PricesFibra= [
    Megas: '750',
    Bytes: 'Megas',
    Preco:'109,89',
-   HaveBonus: true, 
+   HaveBonus: false, 
    Bonus: 'Maquininha Bin',
  }, 
   {
@@ -36,7 +36,7 @@ const PricesFibra= [
    Megas: '1',
    Bytes: 'Giga',
    Preco:'109,89',
-   HaveBonus: true, 
+   HaveBonus: false, 
    Bonus: 'Maquininha Bin',
  }, 
  ]
