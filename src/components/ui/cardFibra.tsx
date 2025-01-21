@@ -103,7 +103,7 @@ export function CardNavFibra() {
               <p className='border-y border-black w-full py-1 text-center'>Apps ilimitados</p>
 
               <div className='flex w-full flex-col'>
-                <p className='text-lg'>Por apenas:</p>
+                <p className='text-lg'>A partir de:</p>
                 <p className='text-2xl justify-center w-full'>R$ {teste1.preco}/Mês</p>
               </div>
               <Button className='w-full'>
