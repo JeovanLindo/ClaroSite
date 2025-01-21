@@ -1,6 +1,11 @@
 const PricesMovel = [ 
   {
     Plano: 'Plano de Celular',
+    Gigas: '6',
+    Preco:'39,99', 
+  },
+  {
+    Plano: 'Plano de Celular',
     Gigas: '15',
     Preco:'49,99', 
   },
