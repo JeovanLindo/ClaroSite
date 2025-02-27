@@ -27,7 +27,7 @@ export default function Footer ({ id }: { id: string }){
                 <li>
                   <p className='opacity-90'>Centro-RJ</p>
                 </li>
-                <li><a className='hover:opacity-100 opacity-60 transition-all' target='blank' href='https://maps.app.goo.gl/cZ2C25VRvSH4XQoe7'>Av. Rio Branco, 156, Sala 2814, Centro da cidade, Rio de Janeiro</a></li>
+                <li><a className='hover:opacity-100 opacity-60 transition-all' target='blank' href='https://maps.app.goo.gl/FZHGHd6DJ5Uk6EFTA'>Av. das Américas, 19005 - Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22790-703 - Absolutto Business Towers torre 1, sala 1219</a></li>
               </ul>
             </div>
           </div>
